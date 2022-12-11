@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: auto;
+    overflow-y: hidden;
+    background: #201849;
+}
+.header{
+    color: white;
+    position: absolute;
+    top: 3vh;
+    left: 50%;
+    font-size: 10vh;
+    transform: translate(-50%, -50%);
+    font-family: 'Annie Use Your Telescope', cursive;
+    letter-spacing: 5px;
+}
+::selection{
+    background-color: #430279;
+}
